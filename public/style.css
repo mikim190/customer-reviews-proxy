@@ -1,0 +1,16 @@
+
+#reservations {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    background-color: white;
+}
+
+#menu {
+    margin: 0px 100px;
+    width: 70%;
+}
+
+#review {
+    margin: 0px 100px;
+}

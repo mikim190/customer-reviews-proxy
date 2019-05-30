@@ -1,17 +1,32 @@
 {
-  "name": "",
-  "version": "",
+  "name": "customer-reviews-proxy",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krummurk/customer-reviews-proxy.git"
+  },
+  "author": "Kim T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krummurk/customer-reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/krummurk/customer-reviews-proxy#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.19.1"
+  },
+  "resolutions": {
+    "styled-components": "^4.2.0"
   },
   "dependencies": {
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "styled-components": "^4.2.0"
   }
 }
